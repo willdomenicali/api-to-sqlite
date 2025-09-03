@@ -30,7 +30,7 @@ def transform_fields_rename(df: pd.DataFrame) -> pd.DataFrame:
             'cases':'casos', 'todayCases':'casos_hoje', 'deaths':'mortes', 'todayDeaths':'mortes_hoje',
             'recovered':'recuperados', 'todayRecovered':'recuperados_hoje', 'active':'ativos', 'critical':'criticos',
             'casesPerOneMillion':'casos_por_milhao', 'deathsPerOneMillion':'mortes_por_milhao',
-            'tests':'testes', 'testsPerOneMillion':'testes_por_pessoa', 'population':'populacao', 'continent':'continente',
+            'tests':'testes', 'testsPerOneMillion':'testes_por_milhao', 'population':'populacao', 'continent':'continente',
             'oneCasePerPeople':'casos_por_pessoa', 'oneDeathPerPeople':'mortes_por_pessoa', 'oneTestPerPeople':'testes_por_pessoa',
             'activePerOneMillion':'ativos_por_milhao', 'recoveredPerOneMillion':'recuperados_por_milhao',
             'criticalPerOneMillion':'criticos_por_milhao',
